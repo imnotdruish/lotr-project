@@ -1,0 +1,21 @@
+.dashboard {
+  display: grid;
+  place-items: center;
+  color: white;
+  z-index: 50;
+  position: relative;
+  flex: 1;
+  max-height: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 100%;
+}
+
+.infoPanel {
+  max-height: 100svh;
+  overflow: scroll;
+}
